@@ -9,6 +9,7 @@ bcftools mpileup -Ou -f bbc.fasta \
 ## Step 1: Check your sample names - bcftools mpileup names samples after the BAM file paths by default, so confirm what they look like before splitting into groups:
 '''
 conda activate bio_env
+
 bcftools query -l body_size.vcf
 '''
 
